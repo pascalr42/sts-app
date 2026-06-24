@@ -1,7 +1,7 @@
 {
   "name": "STS Lern-App",
   "short_name": "STS Quiz",
-  "description": "Mobile Lern-App für STS-Quizze zum Drohnenführerschein",
+  "description": "Mobile Lern-App für STS-Quizze",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

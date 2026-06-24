@@ -1,15 +1,1 @@
-STS Lern-App V3 Final
-
-Enthalten:
-- index.html
-- quiz-data.json (bereinigt, UTF-8)
-- manifest.webmanifest
-- service-worker.js
-- icon-192.png
-- icon-512.png
-- icon.svg
-
-Einspielen:
-1. Alle Dateien in dein GitHub-Repository hochladen/ersetzen.
-2. Falls die App bereits installiert war: Browser-Cache leeren oder PWA löschen und neu installieren.
-3. GitHub Pages neu laden.
+STS Lern-App V4: Entfernt Modus „Gelb markierte Stellen“ und ergänzt gewichtete Prüfungsmodi: 60 Fragen und 30 Fragen. Zum Update alle Dateien hochladen/ersetzen und PWA/Browsercache löschen.
