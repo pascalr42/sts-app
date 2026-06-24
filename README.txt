@@ -1,1 +1,1 @@
-STS Lern-App V4: Entfernt Modus „Gelb markierte Stellen“ und ergänzt gewichtete Prüfungsmodi: 60 Fragen und 30 Fragen. Zum Update alle Dateien hochladen/ersetzen und PWA/Browsercache löschen.
+STS Lern-App V5: Prüfungsmodi schließen gelb markierte Fragen aus. Neuer Modus: 20 Zufallsfragen aus ausgewähltem Teil. Auswerten-Button steht am Ende der Fragen. Zum Update alle Dateien ersetzen und PWA/Browsercache löschen.
