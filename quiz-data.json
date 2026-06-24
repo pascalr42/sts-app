@@ -1,6 +1,15 @@
 {
-  "version": 1,
-  "generatedFrom": "STS-T-06_Quiz_Meteorologie.html",
+  "version": 2,
+  "generatedFrom": [
+    "STS-T-06_Quiz_Meteorologie.html",
+    "STS-T-01_Quiz_Luftrecht.html",
+    "STS-T-02_Quiz_UAS_Kenntnisse.html",
+    "STS-T-03-Quiz_Minderung_Bodenrisiken.html",
+    "STS-T-04-Quiz_Minderung_Luftrisiken.html",
+    "STS-T-05-Quiz_Betriebsverfahren.html",
+    "STS-T-07_Quiz_Flugleistung.html",
+    "STS-T-08_Quiz_Human_Factors.html"
+  ],
   "quizzes": [
     {
       "id": "meteorologie",
@@ -412,6 +421,2492 @@
             "Wenn Temperatur und Taupunkt übereinstimmen, beträgt die relative Luftfeuchtigkeit etwa 100 %",
             "Der Taupunkt ist unabhängig von der Luftfeuchtigkeit",
             "Die relative Luftfeuchtigkeit sinkt, wenn sich Temperatur und Taupunkt annähern"
+          ],
+          "correct": 1,
+          "marked": false
+        }
+      ]
+    },
+    {
+      "id": "luftrecht",
+      "title": "Luftrecht",
+      "subtitle": "Teil 1: Luftrecht – schwere Multiple-Choice-Prüfung",
+      "description": "51 Fragen aus STS-T-01_Quiz_Luftrecht.html",
+      "passThreshold": 75,
+      "questions": [
+        {
+          "q": "Welche Zuordnung der UAS-Kategorien entspricht dem europäischen Bezugsrahmen der VO (EU) 2019/947?",
+          "options": [
+            "Offene Kategorie für jeden gewerblichen Betrieb, spezielle Kategorie für Freizeitbetrieb, zulassungspflichtige Kategorie für alle C-Klassen",
+            "Offene Kategorie bei geringerem Risiko, spezielle Kategorie bei Erklärung/Genehmigung, zulassungspflichtige Kategorie bei hohem Risiko",
+            "Offene Kategorie mit SORA-Pflicht, spezielle Kategorie ohne Erklärung, zulassungspflichtige Kategorie mit automatischer Genehmigung",
+            "Offene Kategorie für BVLOS, spezielle Kategorie für A1/A2/A3, zulassungspflichtige Kategorie für VLOS"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Unterkategorien gibt es in der offenen Kategorie?",
+          "options": [
+            "C0, C1 und C2",
+            "STS-01, STS-02 und PDRA",
+            "GEN, ENR und AD",
+            "A1, A2 und A3"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zu UAS ohne Klassenbezeichnung ab 2024 ist zutreffend?",
+          "options": [
+            "Unter 250 g analog C0, ab 250 g analog C4",
+            "Unter 250 g analog C2, ab 250 g analog C6",
+            "Unter 250 g zusätzlich A2, ab 250 g ohne Qualifikation",
+            "Unter 250 g A3, ab 250 g automatisch STS"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Kombination gehört zu den allgemeinen Betriebsvorgaben der offenen Kategorie?",
+          "options": [
+            "BVLOS, maximal 150 m, Abwurf bei Sichtkontakt, Transport ungefährlicher Güter",
+            "EVLOS, Höhe nach Betriebshandbuch, Abwurf mit Beobachter, Personentransport bei C5",
+            "VLOS, maximal 120 m über Grund, kein Abwurf, kein Transport von gefährlichen Gütern oder Menschen",
+            "VLOS, maximal 250 m, Transport gefährlicher Güter bei Risikopuffer"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Folge hat es, wenn Vorgaben der offenen Kategorie nicht erfüllt werden?",
+          "options": [
+            "Der Betrieb bleibt OPEN, wenn die Flughöhe unter 120 m liegt",
+            "Der Betrieb fällt in die spezielle Kategorie und benötigt STS-Erklärung, PDRA-Genehmigung, individuelle Genehmigung oder LUC",
+            "Der Betrieb wird automatisch zulassungspflichtig",
+            "Der Betrieb kann fortgesetzt werden, wenn der Betreiber registriert ist"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Möglichkeit gehört zur speziellen Kategorie?",
+          "options": [
+            "Abgabe einer Betriebserklärung nach STS",
+            "A1/A3-Kompetenznachweis als alleiniger Betriebsweg",
+            "Betrieb ohne Betreiberregistrierung",
+            "Automatische Betriebsgenehmigung ohne Verfahrenswahl"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Was ist keine der 4 speziellen Kategorien?",
+          "options": [
+            "Standardszenario",
+            "Pre-Defined Risk Assessment",
+            "Individuelle Betriebsgenehmigung",
+            "Offene Betriebserlaubnis A2"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Warum reduzieren STS den Genehmigungsaufwand gegenüber einer individuellen SORA?",
+          "options": [
+            "Weil STS-Flüge keiner Betriebsgrenze unterliegen",
+            "Weil STS generell in OPEN stattfinden",
+            "Weil die EASA für häufige Anwendungsfälle bereits eine Risikobewertung im Voraus erstellt hat",
+            "Weil technische UAS-Eigenschaften bei STS keine Rolle spielen"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Kurzbeschreibung trifft STS-01?",
+          "options": [
+            "VLOS über einem kontrollierten Bodenbereich, unter anderem in bewohntem Gebiet",
+            "BVLOS über dünn besiedeltem Gebiet",
+            "EVLOS in ländlicher Umgebung ohne C5-UAS",
+            "Automatisierte Inspektion in reserviertem Luftraum"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Betriebsgrenze gilt nach STS-01 für die Fluggeschwindigkeit?",
+          "options": [
+            "Maximal 50 m/s bei VLOS",
+            "Maximal 30 m/s bei kontrolliertem Bodenbereich",
+            "Maximal 5 m/s im Langsamflugmodus",
+            "Maximal 120 km/h bei Zustimmung der Hindernisstelle"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche technische UAS-Eigenschaft ist für STS-01 genannt?",
+          "options": [
+            "Kennzeichnung mit Klasse C6",
+            "Kennzeichnung mit Klasse C5",
+            "Keine Klassenkennzeichnung erforderlich",
+            "Musterzulassung als Verkehrsluftfahrzeug"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Kurzbeschreibung trifft STS-02?",
+          "options": [
+            "VLOS über bewohntem Gebiet",
+            "A1-Betrieb über unbeteiligten Personen",
+            "Transport gefährlicher Güter über kontrolliertem Gebiet",
+            "BVLOS über einem kontrollierten Bodenbereich in dünn besiedeltem Gebiet"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Entfernungsregel gilt in STS-02 mit Luftraumbeobachter?",
+          "options": [
+            "Maximal 5 km Entfernung ohne Beobachterabstände",
+            "Maximal 500 m Entfernung bei Start und Landung in BVLOS",
+            "Maximal 2 km Entfernung des UAS zum Fernpiloten sowie weitere Abstandsgrenzen für Beobachter",
+            "Maximal 3 km, wenn der kontrollierte Bereich dicht besiedelt ist"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche zusätzliche Bedingung gehört zu STS-02 laut Betriebsgrenzen?",
+          "options": [
+            "Flugsichtweite mindestens 5 km",
+            "Flugsichtweite mindestens 1 km",
+            "Flughöhe bis 150 m über Grund",
+            "Betrieb aus einem fahrenden Fahrzeug bei Beobachtereinsatz"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Wie hoch ist die Maximalgeschwindigkeit in STS-02?",
+          "options": [
+            "5 m/s",
+            "30 m/s",
+            "120 m/s",
+            "50 m/s"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche technische UAS-Eigenschaft ist für STS-02 genannt?",
+          "options": [
+            "Kennzeichnung mit Klasse C5",
+            "Kennzeichnung mit Klasse C6",
+            "UAS ohne Klassenkennzeichnung bis 25 kg",
+            "Zulassung als bemanntes Luftfahrzeug"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aufgabe gehört zu den Verantwortlichkeiten des Betreibers?",
+          "options": [
+            "Aktive Steuerung des UAS während jedes Fluges",
+            "Erstellung eines Betriebshandbuchs mit Angaben zu Organisation, Verfahren, Trainings, Wartungen und technischen Details",
+            "Erteilung von Betriebsgenehmigungen an andere Betreiber",
+            "Festlegung nationaler Luftraumklassen"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Was muss der Betreiber vor Beginn des Einsatzes für Personen im kontrollierten Bodenbereich sicherstellen?",
+          "options": [
+            "Dass diese automatisch als unbeteiligte Personen gelten",
+            "Dass diese keine Informationen zu Betriebsvolumen und Risikopuffer erhalten",
+            "Dass diese während des Fluges als Luftraumbeobachter eingesetzt werden",
+            "Dass diese über Risiken und Schutzmaßnahmen informiert beziehungsweise geschult wurden und der Teilnahme zugestimmt haben"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Pflicht des Fernpiloten ist genannt?",
+          "options": [
+            "Abbruch des Fluges, wenn der Betrieb eine Gefahr für Luftfahrzeuge, Menschen, Tiere, Sachen oder Umwelt darstellt",
+            "Ausstellung der Betreiber-ID durch den Fernpiloten",
+            "Genehmigung von Flugbeschränkungsgebieten",
+            "Ersetzung des Betriebshandbuchs durch mündliche Anweisungen"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Hauptaufgabe hat ein Luftraumbeobachter in STS-02?",
+          "options": [
+            "Übernahme der Steuerung bei jedem BVLOS-Abschnitt",
+            "Genehmigung des Betriebs im kontrollierten Bodenbereich",
+            "Frühzeitiges Erkennen eines Kollisionsrisikos mit bemannten Luftfahrzeugen und Warnung des Fernpiloten",
+            "Erstellung des technischen Anhangs für PDRA"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Was muss der Betreiber bei STS-Flügen im EU-Ausland der NAA des Betriebslandes vorlegen?",
+          "options": [
+            "Einen neuen vollständigen SORA-Antrag für jedes STS",
+            "Eine Musterzulassung des UAS durch die NAA des Betriebslandes",
+            "Eine vollständige Neuregistrierung im Zielland",
+            "Kopie der im Heimatland eingereichten Betriebserklärung"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Was ist keine Aufgabe des Luftraumbeobachters?",
+          "options": [
+            "Den Luftraum in der Umgebung des UAS gründlich abzusuchen",
+            "Die Betriebsgenehmigung für den geplanten UAS-Betrieb zu erteilen",
+            "Den Fernpiloten bei erkannter Gefahr zu warnen",
+            "Beim Einflug eines bemannten Luftfahrzeugs in das Betriebsvolumen den Fernpiloten zu alarmieren"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welches deutsche nationale Standardszenario wird genannt?",
+          "options": [
+            "DE.STS.FARM für bodennahen Drohneneinsatz über landwirtschaftlichen Flächen",
+            "DE.STS.URBAN für Transporte über Menschenansammlungen",
+            "DE.STS.CTR für Flüge in Kontrollzonen",
+            "DE.STS.PDRA für automatisierte Industrieinspektionen"
+          ],
+          "correct": 0,
+          "marked": true
+        },
+        {
+          "q": "Welche Sonderregelung wird für nationale Standardszenarien genannt?",
+          "options": [
+            "Die maximale Startmasse ist stets auf 25 kg begrenzt",
+            "Gegenstände dürfen ohne Sicherheitsbewertung abgeworfen werden",
+            "Der in A3 erforderliche 150-m-Mindestabstand zu Wohn-, Gewerbe- und Industriegebieten darf unterschritten werden",
+            "Der Betrieb ist immer außerhalb der speziellen Kategorie einzuordnen"
+          ],
+          "correct": 2,
+          "marked": true
+        },
+        {
+          "q": "Welche Zuordnung eines PDRA ist korrekt?",
+          "options": [
+            "PDRA-S01 beschreibt BVLOS in reserviertem Luftraum",
+            "PDRA-G02 beschreibt VLOS im bewohnten Gebiet mit C5-UAS",
+            "PDRA-G01 beschreibt EVLOS in ländlicher Umgebung",
+            "PDRA-S02 beschreibt automatisierte Inspektion ohne C6-Bezug"
+          ],
+          "correct": 2,
+          "marked": true
+        },
+        {
+          "q": "Was unterscheidet PDRA-S01 und PDRA-S02 von STS bezüglich UAS-Klassenkennzeichnung?",
+          "options": [
+            "Für PDRA ist keine C5- beziehungsweise C6-Klassenkennzeichnung erforderlich",
+            "Für PDRA ist immer C5 oder C6 zwingend",
+            "PDRA darf nur mit C0 betrieben werden",
+            "PDRA verlangt Muster- und Verkehrszulassung"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage nennt einen Unterschied von PDRA zu STS?",
+          "options": [
+            "PDRA ist immer auf VLOS begrenzt",
+            "PDRA darf nie über 120 m AGL stattfinden",
+            "PDRA erfordert keine Betriebsgenehmigung",
+            "Ein kontrollierter Bodenbereich ist nicht zwingend erforderlich"
+          ],
+          "correct": 3,
+          "marked": true
+        },
+        {
+          "q": "Wann muss eine individuelle Bewertung des Betriebsrisikos (SORA) durchgeführt werden?",
+          "options": [
+            "Wenn ein UAS in A1 unter 250 g betrieben wird",
+            "Wenn der geplante Betrieb nicht im Rahmen von OPEN, STS oder PDRA durchgeführt werden kann",
+            "Wenn ein STS-Flug mit C5- oder C6-UAS durchgeführt wird",
+            "Wenn ein Betreiber in der offenen Kategorie unter 120 m AGL bleibt"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wofür steht SORA?",
+          "options": [
+            "Specific Operation Risk Assessment",
+            "Standard Operational Risk Authorisation",
+            "Specific Operator Registration Agreement",
+            "Safety Objective Route Assessment"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Was ist bei STS gegenüber PDRA und SORA erforderlich?",
+          "options": [
+            "Ein technischer Anhang und eine Risikobewertung sind zwingend wie bei PDRA vorzulegen",
+            "Ein Erlaubnisverfahren für jedes Fluggebiet ist erforderlich",
+            "Ein Betriebshandbuch ist erforderlich, muss bei Abgabe der Betriebserklärung aber nicht vorgelegt werden",
+            "Ein Antrag auf Betriebsgenehmigung mit individueller Risikobewertung ist der Standardweg"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Schritte gehören grundsätzlich zum Weg in die spezielle Kategorie?",
+          "options": [
+            "MTOM-Erhöhung, Klassenwechsel, ICAO-Karte und NOTAM-Erstellung",
+            "Haftpflichtversicherung, Betreiberregistrierung, Qualifikationsnachweise und Erklärung beziehungsweise Genehmigungsantrag",
+            "Luftraumsperrung, Musterzulassung, Flugplan und ATC-Freigabe für jeden UAS-Flug",
+            "A1/A3, Verzicht auf Betriebshandbuch, Betrieb ohne Registrierung"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Was gilt für SPEC-Flüge im EU-Ausland ohne STS?",
+          "options": [
+            "Die Heimatgenehmigung gilt unverändert ohne Kontakt zur NAA",
+            "Es genügt die Betreiber-ID am UAS",
+            "Jeder Flug wird automatisch zur offenen Kategorie",
+            "Die Betriebsgenehmigung muss im anderen EU-Land unter Vorlage der Heimatgenehmigung neu beantragt werden"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Wie definiert sich ein getrennter Luftraum?",
+          "options": [
+            "Ein Luftraum ohne Höhen- und Seitenbegrenzung für jeden VLOS-Betrieb",
+            "Ein Bereich, in dem ED-D, ED-R und ED-P gleichzeitig aufgehoben sind",
+            "Ein Abschnitt der AIP, der ausschließlich Flugplätze und Heliports beschreibt",
+            "Ein Luftraum mit klaren Abmessungen, der für bestimmte Nutzer zur ausschließlichen Nutzung reserviert ist"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt staatliche Souveränität im Luftraumkontext?",
+          "options": [
+            "Grenzüberschreitende Flüge sind nur unter bestimmten Bedingungen möglich",
+            "Jeder Betreiber darf EU-weit ohne Vorgaben fliegen",
+            "Luftraum wird nur von privaten Betreibern festgelegt",
+            "Staatliche Souveränität betrifft nur bemannte Luftfahrt"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Wie wird der Luftraum international klassifiziert?",
+          "options": [
+            "Mit den Buchstaben K bis Z",
+            "Mit Zahlen von 1 bis 7",
+            "Mit den Buchstaben A bis G",
+            "Mit Farben nach ICAO-Kartenmaßstab"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage passt zur dargestellten Luftraumstruktur?",
+          "options": [
+            "UAS dürfen in CTR grundsätzlich ohne weitere Prüfung starten",
+            "CTR, RMZ, TMZ, ED-R und verschiedene Klassen können nebeneinander relevant sein",
+            "ED-R ersetzt alle anderen Luftraumklassen",
+            "RMZ und TMZ betreffen ausschließlich Flugplätze der AIP-AD"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Luftraumklassen sind in der Vergleichstabelle als unkontrolliert gekennzeichnet?",
+          "options": [
+            "A und B",
+            "C und D",
+            "F und G",
+            "D und E"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Zuordnung besonderer Gebiete ist korrekt?",
+          "options": [
+            "ED-D bezeichnet ein Gebiet, in dem Flüge generell verboten sind",
+            "ED-R bezeichnet stets vollständig freien Luftraum",
+            "ED-P bezeichnet ein Gebiet mit gefährlichen Aktivitäten, aber ohne Flugverbot",
+            "ED-P bezeichnet ein Luftsperrgebiet, in dem der Flug generell verboten ist"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welches besondere Luftraumgebiet gibt es nicht?",
+          "options": [
+            "Gefahrengebiet (ED-D)",
+            "Genehmigungsgebiet (ED-G)",
+            "Flugbeschränkungsgebiet (ED-R)",
+            "Luftsperrgebiet (ED-P)"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wofür steht AIP?",
+          "options": [
+            "Aeronautical Information Publication",
+            "Airspace Identification Procedure",
+            "Aircraft Inspection Programme",
+            "Aerodrome Information Plan"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Wofür steht NOTAM?",
+          "options": [
+            "Navigation Order for Traffic Airspace Management",
+            "National Operational Traffic Aviation Message",
+            "Notice for Aerodrome Maintenance",
+            "Notice To AirMen"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Wofür steht AIC?",
+          "options": [
+            "Aeronautical Information Circular",
+            "Aircraft Identification Code",
+            "Airspace Information Category",
+            "Aviation Inspection Certificate"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche drei Hauptteile hat eine AIP?",
+          "options": [
+            "OPEN, SPEC und CERT",
+            "STS, PDRA und SORA",
+            "GEN, ENR und AD",
+            "ED-D, ED-R und ED-P"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zum NOTAM ist zutreffend?",
+          "options": [
+            "Line C enthält immer die Koordinaten des Betreibers",
+            "Line B gibt an, ab wann ein NOTAM in Kraft tritt",
+            "NOTAM ersetzt langfristig die AIP vollständig",
+            "NOTAM ist nur für bemannte IFR-Flüge gedacht"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Was beschreibt ein AIC?",
+          "options": [
+            "Eine dauerhafte Änderung der AIP mit Rechtskraft für Jahrzehnte",
+            "Eine Betriebsgenehmigung für STS im EU-Ausland",
+            "Eine Bekanntmachung zu Flugsicherheit, Flugnavigation sowie technischen, administrativen oder rechtlichen Angelegenheiten außerhalb von AIP, SUP AIP oder NOTAM",
+            "Ein Luftraum mit generellem Flugverbot"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Wofür steht ICAO?",
+          "options": [
+            "International Civil Aviation Organization",
+            "International Controlled Airspace Office",
+            "Integrated Civil Aviation Operations",
+            "International Chart and Aerodrome Organisation"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Umrechnung ist für eine ICAO-Karte im Maßstab 1:500.000 korrekt?",
+          "options": [
+            "1 cm entspricht 500 m",
+            "1 cm entspricht 10 km",
+            "5 cm entsprechen 5 km",
+            "1 cm auf der Karte entspricht 5 km in der Realität"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Personalanforderung gehört zur offenen Kategorie?",
+          "options": [
+            "Der Fernpilot benötigt stets STS-01 und STS-02 Praxisabschluss",
+            "Der Fernpilot ist qualifiziert mit A1/A3 und gegebenenfalls A2",
+            "Der Betreiber darf unregistriert bleiben, wenn VLOS eingehalten wird",
+            "Der Fernpilot muss für jeden OPEN-Flug eine SORA erstellen"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Regel gilt für STS-01 bei einem künstlichen Hindernis über 105 m?",
+          "options": [
+            "Die Flughöhe darf mit Zustimmung der verantwortlichen Stelle bis 15 m oberhalb des Hindernisses erweitert werden",
+            "Die Flughöhe darf ohne Zustimmung bis 150 m über Grund erweitert werden",
+            "Die 120-m-Grenze entfällt generell bei C5-UAS",
+            "Ein Hindernis über 105 m macht STS-01 unzulässig"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Platzierungspflicht betrifft Luftraumbeobachter in STS-02?",
+          "options": [
+            "Beobachter dürfen unabhängig von der Flugroute an einem beliebigen Punkt stehen",
+            "Ein Beobachter ersetzt die Pflicht zum kontrollierten Bodenbereich",
+            "Der Betreiber stellt sicher, dass Beobachter entlang der Route in ausreichender Anzahl vorhanden und korrekt platziert sind",
+            "Beobachter müssen höchstens 2 km voneinander entfernt sein"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welches PDRA gilt als Spiegelbild von STS-02 ohne C6-Drohne?",
+          "options": [
+            "PDRA-G02",
+            "PDRA-S02",
+            "PDRA-S01",
+            "PDRA-G03"
+          ],
+          "correct": 1,
+          "marked": true
+        }
+      ]
+    },
+    {
+      "id": "uas_kenntnisse",
+      "title": "Allgemeine Kenntnisse zu UAS",
+      "subtitle": "Teil 2: Allgemeine Kenntnisse zu UAS – schwere Multiple-Choice-Prüfung",
+      "description": "32 Fragen aus STS-T-02_Quiz_UAS_Kenntnisse.html",
+      "passThreshold": 75,
+      "questions": [
+        {
+          "q": "Welche Kombination beschreibt zentrale technische Anforderungen an ein UAS der Klasse C5 am treffendsten?",
+          "options": [
+            "Dreh- oder Starrflügler, bis 6 m Abmessung, MTOM bis 50 kg und programmierbares Betriebsvolumen",
+            "Drehflügler beziehungsweise Starrflügler bei gefesseltem Betrieb, bis 3 m Abmessung, MTOM bis 25 kg und Übertragung der Flughöhe",
+            "Drehflügler mit C2-Link-Qualitätsanzeige, Geo-Caging und geplanter Flugbahnprogrammierung",
+            "Starrflügler mit barometrischem Höhenmesser, ADS-B-Empfänger und automatischer Genehmigungsprüfung"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage grenzt das Flight-Termination-System bei C5 fachlich korrekt von Return-to-home ab?",
+          "options": [
+            "RTH und FTS beschreiben dieselbe Sicherheitsfunktion mit unterschiedlicher Bezeichnung",
+            "RTH ist für null Auftrieb und null Schub verantwortlich, während FTS die Rückkehr zum Startpunkt auslöst",
+            "FTS ist eine Navigationsfunktion zur Routenfortsetzung bei schwachem GNSS-Signal",
+            "Das FTS dient dem Flugabbruch und ist nicht mit der Rückkehrfunktion RTH gleichzusetzen"
+          ],
+          "correct": 3,
+          "marked": true
+        },
+        {
+          "q": "Welche Nachrüstung wird im Zusammenhang mit C5 im Skript beschrieben?",
+          "options": [
+            "Ein UAS der Klasse C3 kann mit entsprechendem Zusatzbaustein zu einem UAS der Klasse C5 nachgerüstet werden",
+            "Ein UAS der Klasse C4 wird durch ein Geo-Caging-System automatisch zu C6",
+            "Ein UAS der offenen Kategorie wird durch GNSS-Empfang ohne weitere Technik zu C5",
+            "Ein UAS mit C6-Kennzeichnung kann durch Entfernen des FTS als C5 betrieben werden"
+          ],
+          "correct": 0,
+          "marked": true
+        },
+        {
+          "q": "Über welchen Flugmodus muss eine Drohne der Klasse C5 verfügen?",
+          "options": [
+            "Präzisionsflugmodus (3 m/s)",
+            "Stabilisierungsmodus (10 m/s)",
+            "Langsamflugmodus (5 m/s)",
+            "BVLOS-Reisemodus (50 m/s)"
+          ],
+          "correct": 2,
+          "marked": true
+        },
+        {
+          "q": "Welche Aussage passt beim Vergleich von C5 und C6?",
+          "options": [
+            "C5 und C6 unterscheiden sich vorrangig durch die Farbe der Kennzeichnung",
+            "C5 und C6 sind getrennte technische Klassen mit unterschiedlichen Betriebsanforderungen",
+            "C6 ersetzt die Betriebserklärung, weil die Klasse bereits eine Genehmigung enthält",
+            "C5 und C6 beziehen sich auf dieselbe technische Konfiguration mit anderem Betriebsnamen"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wofür steht STS?",
+          "options": [
+            "Standard Scenario",
+            "Specific Technical System",
+            "Safety Termination Sequence",
+            "Standard Tracking Service"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Anforderung ist spezifisch für ein UAS der Klasse C6 genannt?",
+          "options": [
+            "Die Reisegeschwindigkeit über Grund muss auf 5 m/s begrenzt sein",
+            "Der Starrflügler muss gefesselt betrieben werden",
+            "Die Klasse C3 muss mit einem C5-Zusatzbaustein nachgerüstet werden",
+            "Die Flugbahn des UAS und das Betriebsvolumen müssen programmierbar sein"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Rolle spielt Geo-Caging bei einem UAS der Klasse C6?",
+          "options": [
+            "Es warnt vor potenzieller Verletzung von Luftraumbeschränkungen ohne Begrenzung des Volumens",
+            "Es ersetzt die C2-Verbindung bei schwachem Steuerungslink",
+            "Es hindert das UAS am Verlassen des festgelegten Betriebsvolumens",
+            "Es misst barometrisch die Höhe über dem mittleren Meeresspiegel"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zur Unabhängigkeit technischer Systeme bei C6 ist korrekt?",
+          "options": [
+            "FTS, Geo-Caging und Flugsteuerung müssen unabhängig voneinander sein",
+            "FTS und Geo-Caging dürfen Bestandteil derselben automatischen Flugsteuerung sein",
+            "Die Flugsteuerung übernimmt die Funktion des Geo-Caging bei schwachem GNSS",
+            "Das FTS darf über die gleiche Logik wie die automatische Flugführung ausgelöst werden"
+          ],
+          "correct": 0,
+          "marked": true
+        },
+        {
+          "q": "Welches Thema wird mit dem Abschnitt Flight-Termination-System eingeführt?",
+          "options": [
+            "Die Auswertung von GNSS-Positionsdaten im Navigationssystem",
+            "Die barometrische Ermittlung der Flughöhe beim Start",
+            "Das technische System zum gezielten Flugabbruch eines UAS",
+            "Die Unterscheidung zwischen Airspeed und Groundspeed"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Warum ist das FTS als eigenes Prüfungsthema relevant?",
+          "options": [
+            "Weil es die Genauigkeit des Magnetkompasses verbessert",
+            "Weil es im STS-Kontext als eigenständige Sicherheitsfunktion vom normalen Flugführungsablauf zu verstehen ist",
+            "Weil es die Wegpunktnavigation im Normalbetrieb optimiert",
+            "Weil es die Anzeige von AMSL, QFE und QNH standardisiert"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Wirkung beschreibt die Funktion eines Flugabbruchsystems am besten?",
+          "options": [
+            "Es bringt das UAS automatisch zum Startplatz zurück",
+            "Es stabilisiert die Flughöhe über einen barometrischen Sensor",
+            "Es kompensiert Seitenwind durch Anpassung der Groundspeed",
+            "Es versetzt das UAS in einen Zustand mit null Auftrieb und null Schub"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Anforderung an ein Flugabbruchsystem ist im Skript genannt?",
+          "options": [
+            "Die Aktivierung muss zuverlässig und vorhersehbar erfolgen",
+            "Die Aktivierung muss über das automatische Flugführungssystem erfolgen",
+            "Die Aktivierung muss die horizontale Fortbewegung eines Starrflüglers mit Antrieb verlängern",
+            "Die Aktivierung muss nicht im Benutzerhandbuch beschrieben werden"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Information muss im Benutzerhandbuch zum FTS beschrieben sein?",
+          "options": [
+            "Die erwartete Kartenabweichung bei Maßstab 1:500.000",
+            "Die maximale Magnetkompassabweichung durch elektromagnetische Felder",
+            "Die Entfernung, die das UAS bei FTS-Aktivierung voraussichtlich noch zurücklegt",
+            "Die Umrechnung von QNH in Airspeed und Groundspeed"
+          ],
+          "correct": 2,
+          "marked": true
+        },
+        {
+          "q": "Wofür steht IMU?",
+          "options": [
+            "Integrated Motion Unit",
+            "Inertial Measurement Unit",
+            "Internal Measurement Utility",
+            "Inertial Mapping Unit"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Warum sind Sensoren für die STS-Prüfung fachlich bedeutsam?",
+          "options": [
+            "Weil Sensoren die Betriebsgenehmigung für STS ersetzen",
+            "Weil Sensoren die MTOM eines UAS rechtlich erhöhen",
+            "Weil Sensoren den kontrollierten Bodenbereich automatisch festlegen",
+            "Weil Sensoren die Datenbasis für Stabilisierung, Navigation, Lagebestimmung und Höhenübermittlung liefern"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Messgrößen stehen bei einer IMU im Mittelpunkt?",
+          "options": [
+            "Beschleunigung und Lageänderungen des UAS",
+            "Luftdruck und QNH-Wert am Startplatz",
+            "GNSS-Satellitenzahl und Magnetkompassvariation",
+            "Airspeed und Groundspeed entlang einzelner Wegpunkte"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Sensoren umfasst eine IMU typischerweise?",
+          "options": [
+            "Infrarotsensoren und Ultraschallsensoren",
+            "GPS, Galileo und Beidou",
+            "Beschleunigungssensoren und Gyroskope",
+            "Luftdrucksensor und Magnetkompass"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt die Bedeutung der IMU für die Flugregelung fachlich treffend?",
+          "options": [
+            "Aus QNH und QFE wird die Qualität der C2-Verbindung berechnet",
+            "Aus Beschleunigung und Lageänderung können Daten zur Fluglage und Position abgeleitet werden",
+            "Aus Airspeed und Rückenwind wird die barometrische Höhe abgeleitet",
+            "Aus GNSS-Satellitensystemen wird die Drehbewegung um jede Achse gemessen"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Satellitensysteme werden im Skript als Beispiele für GNSS genannt?",
+          "options": [
+            "GPS, ADS-B, QNH und QFE",
+            "Galileo, FTS, RTH und Geo-Caging",
+            "Beidou, IMU, VPS und Ultraschall",
+            "GPS, GLONASS, Galileo und Beidou"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Wofür nutzt ein UAS GNSS primär?",
+          "options": [
+            "Zur direkten Messung der spezifischen Kraft entlang der Achsen",
+            "Zur barometrischen Bestimmung der Höhe über dem Startplatz",
+            "Zur Ermittlung des geografischen Standorts",
+            "Zur mechanischen Reduzierung der Aufprallenergie beim Flugabbruch"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zum Magnetkompass ist im GNSS-Kontext korrekt?",
+          "options": [
+            "Der Magnetkompass unterstützt die Ausrichtung, kann aber durch elektromagnetische Felder gestört werden",
+            "Der Magnetkompass ersetzt GNSS bei allen geografischen Positionsdaten",
+            "Der Magnetkompass misst die Airspeed an der Außenseite des UAS",
+            "Der Magnetkompass verhindert das Verlassen des Betriebsvolumens wie Geo-Caging"
+          ],
+          "correct": 0,
+          "marked": true
+        },
+        {
+          "q": "Welche Aussage beschreibt Airspeed korrekt?",
+          "options": [
+            "Airspeed ist die Geschwindigkeit relativ zum Boden und bestimmt die Ankunft an Wegpunkten",
+            "Airspeed ist die barometrische Höhenreferenz über dem Startplatz",
+            "Airspeed ist die Qualität der C2-Verbindung beim BVLOS-Betrieb",
+            "Airspeed ist die Geschwindigkeit relativ zur Luft und beeinflusst das aerodynamische Verhalten"
+          ],
+          "correct": 3,
+          "marked": true
+        },
+        {
+          "q": "Welche Aussage beschreibt Groundspeed korrekt?",
+          "options": [
+            "Groundspeed ist die Strömung an Steuer- und Tragflächen",
+            "Groundspeed ist die Geschwindigkeit relativ zum Boden und ist für die Navigation entlang der Flugstrecke relevant",
+            "Groundspeed wird an der Außenseite des UAS als aerodynamische Größe gemessen",
+            "Groundspeed beschreibt die Höhe über dem mittleren Meeresspiegel"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wie wirkt sich Wind auf Groundspeed im Vergleich zur Airspeed aus?",
+          "options": [
+            "Rückenwind erhöht die Groundspeed, Gegenwind verringert die Groundspeed",
+            "Rückenwind verringert die Groundspeed, Gegenwind erhöht die Groundspeed",
+            "Wind verändert die Airspeed und Groundspeed stets im gleichen Verhältnis",
+            "Wind beeinflusst die Höhenreferenz QFE stärker als die Geschwindigkeit"
+          ],
+          "correct": 0,
+          "marked": true
+        },
+        {
+          "q": "Welche Aufgabe erfüllen Höhenmesser im UAS laut Skript?",
+          "options": [
+            "Sie programmieren Betriebsvolumen und Flugbahn für C6",
+            "Sie messen die Qualität des Steuerungs- und Kontrolllinks",
+            "Sie stabilisieren die Flughöhe automatisch und übermitteln die Flughöhe an den Fernpiloten",
+            "Sie ersetzen die Magnetkompassausrichtung im GNSS-Betrieb"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Zuordnung eines Höhenmessersensors ist korrekt?",
+          "options": [
+            "Der Ultraschallsensor misst Satellitensignale zur geografischen Position",
+            "Der Luftdrucksensor misst die Höhe barometrisch",
+            "Der Infrarotsensor misst die C2-Link-Qualität",
+            "Der Magnetkompass misst die Höhe über dem mittleren Meeresspiegel"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zum Ultraschallsensor passt zum Skript?",
+          "options": [
+            "Er misst die spezifische Kraft des UAS entlang der Achsen",
+            "Er berechnet die Groundspeed aus Rückenwind und Gegenwind",
+            "Er verhindert als Geo-Caging-System das Verlassen des Betriebsvolumens",
+            "Er wird vor allem zur Abstandsmessung zu Hindernissen eingesetzt und kann auch Abstand zum Boden messen"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Warum ist eine gemeinsame Höhenreferenz im Luftraum wichtig?",
+          "options": [
+            "Damit sich verschiedene Luftraumnutzer über Höhenangaben abstimmen und Missverständnisse vermeiden können",
+            "Damit GNSS-Systeme unabhängig vom Magnetkompass arbeiten",
+            "Damit C5-UAS automatisch zu C6-UAS nachgerüstet werden",
+            "Damit das FTS die verbleibende Strecke nicht im Benutzerhandbuch angeben muss"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Zuordnung der Höhenreferenzen ist korrekt?",
+          "options": [
+            "QFE beschreibt die Höhe über dem mittleren Meeresspiegel",
+            "QNH zeigt auf der Startbahn immer null an",
+            "AMSL beschreibt die Höhe über dem mittleren Meeresspiegel",
+            "AMSL beschreibt die Höhe über dem aktuellen Startplatz"
+          ],
+          "correct": 2,
+          "marked": true
+        },
+        {
+          "q": "Welche Höhenreferenz nutzen UAS häufig für die Flughöhe?",
+          "options": [
+            "Die Airspeed an der Außenseite des UAS",
+            "Die ermittelte Höhe des Startplatzes, vergleichbar mit QFE",
+            "Die Groundspeed relativ zum Boden",
+            "Die C2-Link-Qualität nach Geo-Caging"
+          ],
+          "correct": 1,
+          "marked": true
+        },
+        {
+          "q": "Welches sind die 3 gängigsten Referenzen für Höhenangaben?",
+          "options": [
+            "Airspeed, Groundspeed und Winddrift",
+            "IMU, GNSS und VPS",
+            "C5, C6 und FTS",
+            "AMSL, QFE und QNH"
+          ],
+          "correct": 3,
+          "marked": true
+        }
+      ]
+    },
+    {
+      "id": "bodenrisiken",
+      "title": "Minderung von Bodenrisiken",
+      "subtitle": "Teil 3: Minderung von Bodenrisiken – erweiterte schwierige Multiple-Choice-Prüfung",
+      "description": "25 Fragen aus STS-T-03-Quiz_Minderung_Bodenrisiken.html",
+      "passThreshold": 75,
+      "questions": [
+        {
+          "q": "Was beschreibt den Begriff „Bodenrisiko“ im Kontext eines außer Kontrolle geratenen UAS am zutreffendsten?",
+          "options": [
+            "Risiko, dass ein UAS durch Wind oder Turbulenzen vom Kurs abkommt",
+            "Risiko, dass Personen am Boden durch ein außer Kontrolle geratenes UAS getroffen und verletzt oder getötet werden",
+            "Risiko, dass ein UAS bei Bodenkontakt technische Schäden erleidet",
+            "Risiko, dass der Funkkontakt zwischen Fernpilot und UAS verloren geht"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Kombination entspricht der im Skript genannten allgemeinen Definition von Risiko?",
+          "options": [
+            "Eintrittswahrscheinlichkeit + Schwere der Folgen",
+            "Schwere der Folgen × Eintrittswahrscheinlichkeit",
+            "Schwere der Folgen − Eintrittswahrscheinlichkeit",
+            "Eintrittswahrscheinlichkeit : Schwere der Folgen"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Maßnahme reduziert das Verletzungsrisiko am Boden besonders durch die Verbesserung der Steuerfähigkeit des Fernpiloten?",
+          "options": [
+            "Verwendung eines leistungsstärkeren GNSS-Empfängers",
+            "Üben der Steuerfähigkeiten im manuellen Modus ohne GNSS",
+            "Erhöhung der Flughöhe zur besseren Übersicht",
+            "Nutzung einer längeren Funkverbindung"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Was beschreibt die Flight Geography im STS-Kontext am genauesten?",
+          "options": [
+            "Die Projektion des gesamten Betriebsbereichs auf die Erdoberfläche",
+            "Das räumlich und zeitlich definierte Luftraumvolumen, in dem der UAS-Betrieb nach normalen Verfahren geplant ist",
+            "Den Bereich am Boden, der gegen unbeteiligte Personen abgesichert wird",
+            "Den Sicherheitsbereich außerhalb des Contingency Area"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wodurch ergibt sich die Größe der Flight Geography?",
+          "options": [
+            "Aus der geplanten Flugroute",
+            "Aus der Bevölkerungsdichte im Einsatzgebiet",
+            "Aus der Reichweite des Fernsteuerungssignals",
+            "Aus der maximal zulässigen Startmasse des UAS"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Was ist die Flight Geography Area?",
+          "options": [
+            "Das Volumen, das die Flight Geography lateral und vertikal umschließt",
+            "Die Projektion der Flight Geography auf die Erdoberfläche",
+            "Der Bereich, in dem das UAS nach Auslösung des FTS abstürzen soll",
+            "Die Fläche außerhalb des kontrollierten Bodenbereichs"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt das Contingency Volume korrekt?",
+          "options": [
+            "Es ist der Bodenbereich, in dem sich beteiligte Personen aufhalten dürfen",
+            "Es ist das Luftraumvolumen, das an die Flight Geography angrenzt und diese lateral sowie vertikal umschließt",
+            "Es ist der Bereich, der nach Aktivierung des Flugabbruchsystems zusätzlich freigehalten wird",
+            "Es ist die geplante Fluggeografie bei normalen Betriebsbedingungen"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wie wird die Kombination aus Flight Geography und Contingency Volume bezeichnet?",
+          "options": [
+            "Controlled Ground Area",
+            "Flight Geography Area",
+            "Operational Volume",
+            "Ground Risk Buffer"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Was ist zu tun, wenn ein UAS die Flight Geography verlässt und in das Contingency Volume eindringt?",
+          "options": [
+            "Der Flug wird nach normalem Verfahren fortgesetzt, solange Sichtkontakt besteht",
+            "Die im Betriebshandbuch definierten Contingency-Verfahren sind durchzuführen",
+            "Das UAS wird automatisch in den Ground Risk Buffer gesteuert",
+            "Der kontrollierte Bodenbereich wird nachträglich erweitert"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt den Ground Risk Buffer am treffendsten?",
+          "options": [
+            "Ein definierter Bereich am Boden, der unmittelbar an das Betriebsvolumen angrenzt",
+            "Das Luftraumvolumen oberhalb der Flight Geography",
+            "Die Fläche innerhalb der geplanten Flugroute",
+            "Der Bereich, in dem der Fernpilot das UAS startet und landet"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Funktion hat der Ground Risk Buffer, wenn ein UAS außer Kontrolle gerät und das Contingency Volume nach außen verlässt?",
+          "options": [
+            "Das UAS soll innerhalb des Ground Risk Buffer zum Absturz gebracht werden",
+            "Das UAS soll in die Flight Geography zurückgeführt werden",
+            "Das UAS soll im Contingency Volume gehalten werden",
+            "Das UAS soll oberhalb des kontrollierten Bodenbereichs kreisen"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Wie muss der Ground Risk Buffer grundsätzlich dimensioniert werden?",
+          "options": [
+            "So, dass er der geplanten Flugroute entspricht",
+            "So, dass das abstürzende UAS die Erdoberfläche innerhalb des Ground Risk Buffer erreicht und das Risiko für Dritte minimiert wird",
+            "So, dass er kleiner als das Contingency Area bleibt",
+            "So, dass er mit der Flight Geography Area deckungsgleich ist"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Mindestanforderung gilt für die Contingency Area in STS-01 und STS-02?",
+          "options": [
+            "Mindestens 5 m über die Grenze der Flight Geography Area hinaus",
+            "Mindestens 10 m über die Grenze der Flight Geography Area hinaus",
+            "Mindestens 15 m über die Grenze des Ground Risk Buffer hinaus",
+            "Mindestens 30 m um den Startpunkt des UAS herum"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zum Ground Risk Buffer bei gefesselten UAS in STS-01 ist korrekt?",
+          "options": [
+            "Der Radius entspricht der halben Seillänge zuzüglich 10 m",
+            "Der Radius entspricht der Seillänge zuzüglich 5 m um den Befestigungspunkt des Seils an der Erdoberfläche",
+            "Der Radius entspricht der maximalen Flughöhe des UAS",
+            "Der Radius wird pauschal mit 30 m um den Fernpiloten festgelegt"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt den kontrollierten Bodenbereich korrekt?",
+          "options": [
+            "Ein Bodenbereich, in dem der Betreiber sicherstellen kann, dass dort beteiligte Personen anwesend sind",
+            "Ein Bereich außerhalb des Ground Risk Buffer, der für den normalen Flugbetrieb genutzt wird",
+            "Ein Luftraumvolumen, das die Flight Geography vertikal erweitert",
+            "Ein Bereich, der bei STS-02 außerhalb dünn besiedelter Gebiete liegen darf"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Bereiche muss der kontrollierte Bodenbereich mindestens umfassen?",
+          "options": [
+            "Flight Geography, Contingency Area und Ground Risk Buffer",
+            "Startstelle, Landestelle und Fernpilot-Standort",
+            "Flight Geography Area, Flugfunkbereich und Notlandeplatz",
+            "Ground Risk Buffer, UTM-Zone und technische Kontrollzone"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zur Trennwirkung von Contingency Area und Ground Risk Buffer ist korrekt?",
+          "options": [
+            "Sie trennen das UAS im kontrollierten Bodenbereich von unbeteiligten Personen",
+            "Sie ersetzen die Festlegung der Flight Geography durch den Betreiber",
+            "Sie dienen der lateralen Erweiterung des Flugfunknetzes",
+            "Sie beschreiben die technische Reichweite des Fernsteuerungssystems"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Maßnahme eignet sich laut Skript als mögliche Schutzmaßnahme für einen kontrollierten Bodenbereich?",
+          "options": [
+            "Vorabinformationen an geografisch betroffene Arbeitgeber oder Anwohner",
+            "Erhöhung der maximalen Flughöhe zur Überwachung des Gebiets",
+            "Verzicht auf Hilfspersonal an Eintrittswegen bei hoher Bevölkerungsdichte",
+            "Verlagerung der Contingency Area in den unkontrollierten Bereich"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Kombination enthält Maßnahmen, die für den Schutz eines kontrollierten Bodenbereichs genannt werden?",
+          "options": [
+            "Aushänge, Warn- und Hinweisschilder, Hilfspersonal an Eintrittswegen",
+            "Radarüberwachung, ADS-B-Auswertung, Flugfunkfreigabe",
+            "GNSS-Kalibrierung, Kameratest, Propellerprüfung",
+            "Wetterbriefing, Akkumanagement, Nutzlastkontrolle"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Wer trägt laut Skript die Verantwortung dafür, dass die Betriebsumgebung mit den angegebenen Beschränkungen und Bedingungen vereinbar ist?",
+          "options": [
+            "Der Fernpilot",
+            "Der Hersteller des UAS",
+            "Die geografisch betroffenen Anwohner",
+            "Die Stelle, die das Flugabbruchsystem entwickelt hat"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zum Bodenrisiko in STS-01 im Vergleich zur offenen Kategorie ist zutreffend?",
+          "options": [
+            "Das Bodenrisiko ist größer, weil sich das Fluggebiet in einem bewohnten Gebiet befinden kann",
+            "Das Bodenrisiko ist geringer, weil der Betrieb immer außerhalb bewohnter Gebiete stattfindet",
+            "Das Bodenrisiko ist gleich, da die Betriebszonen identisch festgelegt werden",
+            "Das Bodenrisiko hängt in STS-01 nicht vom Fluggebiet ab"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Konsequenz ergibt sich aus dem erhöhten Bodenrisiko in STS-01?",
+          "options": [
+            "Der Betreiber muss Grenzen für einen kontrollierten Bodenbereich festlegen",
+            "Der Fernpilot muss die Flight Geography nach jedem Flug neu berechnen",
+            "Der Ground Risk Buffer entfällt bei bewohnten Gebieten",
+            "Die Contingency Area darf kleiner als 10 m gewählt werden"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Warum wird das Bodenrisiko in STS-02 im Skript höher bewertet als in STS-01?",
+          "options": [
+            "Weil das Gebiet, das das UAS überfliegen kann, größer ist",
+            "Weil STS-02 grundsätzlich mit schwereren UAS durchgeführt wird",
+            "Weil in STS-02 keine Contingency-Verfahren vorgesehen sind",
+            "Weil der Ground Risk Buffer in STS-02 kleiner dimensioniert wird"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Anforderung ergibt sich für den kontrollierten Bodenbereich in STS-02?",
+          "options": [
+            "Er muss vollständig in einem dünn besiedelten Gebiet liegen",
+            "Er muss vollständig innerhalb der Flight Geography Area liegen",
+            "Er muss dem Radius der Seillänge zuzüglich 5 m entsprechen",
+            "Er muss im bewohnten Gebiet liegen, wenn Hilfspersonal eingesetzt wird"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Wie ist der Ground Risk Buffer in STS-02 nach den Skriptangaben zu bemessen?",
+          "options": [
+            "Er muss die Strecke abdecken, die das UAS voraussichtlich nach Aktivierung des Flugabbruchsystems zurücklegt, und die Herstellergrenzen berücksichtigen",
+            "Er entspricht pauschal mindestens 10 m über die Grenze der Flight Geography Area hinaus",
+            "Er entspricht der Seillänge zuzüglich 5 m um den Befestigungspunkt an der Erdoberfläche",
+            "Er wird anhand der Anzahl beteiligter Personen im kontrollierten Bodenbereich festgelegt"
+          ],
+          "correct": 0,
+          "marked": false
+        }
+      ]
+    },
+    {
+      "id": "luftrisiken",
+      "title": "Minderung von Luftrisiken",
+      "subtitle": "Minderung von Luftrisiken – schwierige Multiple-Choice-Prüfung",
+      "description": "16 Fragen aus STS-T-04-Quiz_Minderung_Luftrisiken.html",
+      "passThreshold": 75,
+      "questions": [
+        {
+          "q": "Was beschreibt den Begriff „Luftrisiko“ im STS-Kontext am zutreffendsten?",
+          "options": [
+            "Risiko für das UAS durch Umwelteinflüsse",
+            "Risiko, das von einem UAS für andere Luftraumnutzer ausgeht",
+            "Risiko von Schäden an der Nutzlast",
+            "Risiko für Personen und Sachen am Boden"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wie wird Risiko im luftfahrtspezifischen Kontext korrekt definiert?",
+          "options": [
+            "Eintrittswahrscheinlichkeit + Schwere der Folgen",
+            "Schwere der Folgen × Eintrittswahrscheinlichkeit",
+            "Schwere der Folgen − Eintrittswahrscheinlichkeit",
+            "Eintrittswahrscheinlichkeit : Schwere der Folgen"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt strategische Abhilfemaßnahmen zutreffend?",
+          "options": [
+            "Maßnahmen, die während des Fluges auf Basis aktueller Luftlage angepasst werden",
+            "Vor dem Flug festgelegte Verfahren und betriebliche Einschränkungen",
+            "Maßnahmen zur Steuerung des UAS in Echtzeit",
+            "Maßnahmen zur Kommunikation mit anderen Luftfahrzeugen"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Charakteristik beschreibt taktische Abhilfemaßnahmen am besten?",
+          "options": [
+            "Maßnahmen ohne Bezug zur aktuellen Luftlage",
+            "Dynamische Maßnahmen mit kontinuierlicher Bewertung der Verkehrssituation",
+            "Vorab definierte Einschränkungen des Flugprofils",
+            "Maßnahmen zur Flugvorbereitung"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche der folgenden Maßnahmen gehört typischerweise zu den strategischen Abhilfemaßnahmen?",
+          "options": [
+            "Reaktion auf einen erkannten Kollisionskurs",
+            "Anpassung der Flugroute während des Fluges",
+            "Festlegung einer maximalen Flughöhe vor dem Start",
+            "Kommunikation mit einer Hilfsperson während des Fluges"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Was wird unter der Nutzung eines „atypischen Luftraums“ verstanden?",
+          "options": [
+            "Nutzung stark frequentierter Flugkorridore",
+            "Flugbetrieb in der Nähe üblicher Verkehrswege",
+            "Flugbetrieb in Bereichen mit geringem bemannten Luftverkehr",
+            "Flugbetrieb in kontrollierten Lufträumen"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Funktion hat ADS-B im Rahmen der Luftraumbeobachtung?",
+          "options": [
+            "Automatische Kollisionsvermeidung durch das UAS",
+            "Steuerung mehrerer UAS über ein Netzwerk",
+            "Empfang und Darstellung von Positionsdaten anderer Luftfahrzeuge",
+            "Verbesserung der GPS-Genauigkeit"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Maßnahme trägt direkt zur Verbesserung der Sichtbarkeit eines UAS bei?",
+          "options": [
+            "Nutzung eines Navigationsblitzlichtes",
+            "Verwendung eines redundanten GNSS-Systems",
+            "Anpassung der Flugroute",
+            "Nutzung eines Autopiloten"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Wann ist eine taktische Reaktion im Sinne des „See & Avoid“-Prinzips erforderlich?",
+          "options": [
+            "Während der Einsatzplanung",
+            "Bei der Definition von Einsatzgrenzen",
+            "Bei Erkennung eines möglichen Konflikts im Luftraum",
+            "Vor dem Start im Rahmen der Checkliste"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt die Rolle der Crew im „See & Avoid“-Konzept korrekt?",
+          "options": [
+            "Die Luftraumbeobachtung erfolgt primär durch technische Systeme",
+            "Der Fernpilot wird durch andere Crew-Mitglieder bei der Luftraumbeobachtung unterstützt",
+            "Die Beobachtung erfolgt durch eine dafür zuständige Einzelperson innerhalb der Crew",
+            "Die Verantwortung für die Beobachtung liegt außerhalb der Crew"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Abfolge entspricht der Logik des „See & Avoid“-Prinzips?",
+          "options": [
+            "Kommunikation → Vermeidung → Erkennung",
+            "Vermeidung → Erkennung → Kommunikation",
+            "Erkennung → Kommunikation → Vermeidung",
+            "Kommunikation → Erkennung → Vermeidung"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Maßnahme ist ein typisches Beispiel für eine definierte Ausweichmaßnahme (Contingency Procedure)?",
+          "options": [
+            "Halten der aktuellen Flughöhe",
+            "Sinken auf eine Flughöhe unterhalb von 10 m AGL",
+            "Steigen zur Verbesserung der Sicht",
+            "Fortsetzen des Fluges mit reduzierter Geschwindigkeit"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wer bewertet die Gefährdungslage und entscheidet über Maßnahmen im Sinne von „See & Avoid“?",
+          "options": [
+            "Die Hilfsperson",
+            "Das eingesetzte technische System",
+            "Der Fernpilot",
+            "Eine externe Flugverkehrsinstanz"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Erkennungsarten sind im „See & Avoid“-Prinzip vorgesehen?",
+          "options": [
+            "Satellitenbasierte Erkennung",
+            "Funkbasierte Erkennung",
+            "Visuelle und akustische Wahrnehmung",
+            "Radarbasierte Erkennung"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Warum reduziert Flugbetrieb in geringer Höhe typischerweise das Kollisionsrisiko?",
+          "options": [
+            "Weil dort mehr technische Unterstützung verfügbar ist",
+            "Weil sich bemannter Luftverkehr seltener in diesen Bereichen bewegt",
+            "Weil dort stärkere Sichtverhältnisse herrschen",
+            "Weil die Fluggeschwindigkeit geringer ist"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wofür steht die Abkürzung ADS-B im Kontext der Luftraumbeobachtung?",
+          "options": [
+            "Automatic Detection System – Broadcast",
+            "Advanced Drone Surveillance – Beacon",
+            "Automatic Dependent Surveillance – Broadcast",
+            "Airspace Data System – Beacon"
+          ],
+          "correct": 2,
+          "marked": false
+        }
+      ]
+    },
+    {
+      "id": "betriebsverfahren",
+      "title": "Betriebsverfahren",
+      "subtitle": "Teil 5: Betriebsverfahren – schwierige Multiple-Choice-Prüfung",
+      "description": "25 Fragen aus STS-T-05-Quiz_Betriebsverfahren.html",
+      "passThreshold": 75,
+      "questions": [
+        {
+          "q": "Wofür steht das MEUH-Konzept im Rahmen der Flugvorbereitung und Vorflugkontrolle?",
+          "options": [
+            "Maintenance, Environment, UAS, Handling",
+            "Meteorology, Environment, UAS, Human",
+            "Mission, Energy, Unit, Hardware",
+            "Manual, Emergency, UAS, Height"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt den Zweck einer guten Checkliste im Vorflugverfahren am treffendsten?",
+          "options": [
+            "Sie ersetzt das Betriebshandbuch während des Einsatzes",
+            "Sie dient hauptsächlich der Dokumentation nach dem Flug",
+            "Sie enthält wesentliche Informationen in nachvollziehbarer Reihenfolge",
+            "Sie beschreibt sämtliche technischen Details des UAS vollständig"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Eigenschaft gehört laut Skript zu einer geeigneten Checkliste für die Vorflugkontrolle?",
+          "options": [
+            "Sie ist dauerhaft gültig und leicht zu nutzen",
+            "Sie wird vor jedem Einsatz vollständig neu erstellt",
+            "Sie enthält möglichst viele Detailinformationen zum Hersteller",
+            "Sie beginnt mit der Nachflugkontrolle"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Wetterfaktoren sind vor dem Start im Rahmen der meteorologischen Beurteilung besonders relevant?",
+          "options": [
+            "Luftdruck, Mondphase, Taupunkt und Sonnenstand",
+            "Bewölkungshöhe, Magnetfeld, Luftdichte und Steuerfrequenz",
+            "UV-Index, Luftfeuchtigkeit, Bodenbelag und Propellerzahl",
+            "Wind, Temperatur, Niederschlag und Sichtweite"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Was ist während des Fluges zu tun, wenn die Umweltbedingungen später die Fähigkeiten des UAS übersteigen?",
+          "options": [
+            "Die Flughöhe ist automatisch zu erhöhen",
+            "Das UAS ist in den automatischen Modus zu versetzen",
+            "Der Flug ist gegebenenfalls abzubrechen",
+            "Die Mission ist bis zum geplanten Endpunkt fortzuführen"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Informationsquellen werden im Skript zur Einholung aktueller Informationen über Aktivitäten im Luftraum genannt?",
+          "options": [
+            "Geoportal und Hersteller-App",
+            "AIP und veröffentlichte NOTAM",
+            "Wetterradar und Kompassdaten",
+            "Flugakku-Protokoll und Logdateien"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Warum muss vor dem Start die Website der zuständigen Behörde geprüft werden?",
+          "options": [
+            "Um die aktuelle Akkukapazität des UAS zu bestätigen",
+            "Um die Fernidentifikation des Herstellers zu aktivieren",
+            "Um die Flugroute automatisch durch die Behörde freigeben zu lassen",
+            "Um mögliche Flugbeschränkungen oder geografische Gebiete im Fluggebiet zu erkennen"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Was ist bei Anwesenheit unbeteiligter Personen im Betriebsvolumen oder Bodensicherheitsbereich im STS-Betrieb erforderlich?",
+          "options": [
+            "Start erst, wenn die Personen das Gebiet verlassen haben",
+            "Start mit reduzierter Geschwindigkeit",
+            "Start, wenn die Personen über den Einsatz informiert wurden",
+            "Start mit zusätzlicher Kameraüberwachung"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Bedeutung hat die Beurteilung von Vögeln im Einsatzgebiet?",
+          "options": [
+            "Sie betrifft vor allem die Bildqualität der Nutzlastkamera",
+            "Sie ersetzt die Prüfung von NOTAM im angrenzenden Luftraum",
+            "Sie kann zur Entscheidung führen, die Mission abzubrechen oder zu landen",
+            "Sie ist vor allem für die Einstellung der direkten Fernidentifikation relevant"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Was muss der Fernpilot tun, wenn Umweltbedingungen die Fähigkeiten des UAS oder genehmigte Verfahren übersteigen?",
+          "options": [
+            "Betrieb mit erhöhter Sicherheitsmarge fortsetzen",
+            "Betrieb oder bereits die Flugplanung abbrechen",
+            "UAS in den manuellen Modus bringen und weiterfliegen",
+            "Betriebsvolumen während des Fluges erweitern"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Gefahr kann durch elektromagnetische Störungen oder große Metallgegenstände entstehen?",
+          "options": [
+            "Eine Signalverschlechterung bis hin zum Signalverlust",
+            "Eine Verbesserung der GNSS-Genauigkeit",
+            "Eine automatische Erweiterung des Betriebsvolumens",
+            "Eine Erhöhung der maximal zulässigen Windgrenze"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Wann sollte ein Flug im automatischen Modus bei vermuteter elektromagnetischer Störung durchgeführt werden?",
+          "options": [
+            "Wenn das UAS mindestens einen Meter über Grund schwebt",
+            "Wenn die direkte Fernidentifikation aktiv ist",
+            "Wenn sich das UAS im Ground Risk Buffer befindet",
+            "Wenn die Störquelle identifiziert und ausgeschaltet ist"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Warum kann bei elektromagnetischer Beeinflussung ein manueller Flugmodus sinnvoll sein?",
+          "options": [
+            "Um die maximale Flugzeit zu verlängern",
+            "Um NOTAM automatisch einzulesen",
+            "Um eine Beeinflussung des Kompasses zu verhindern",
+            "Um die direkte Fernidentifikation zu deaktivieren"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zur Lufttüchtigkeit des UAS vor dem Start ist korrekt?",
+          "options": [
+            "Bei fehlender Lufttüchtigkeit genügt ein kurzer Schwebeflug zur Funktionsprüfung",
+            "Bei fehlender Lufttüchtigkeit sind relevante technische Überprüfungen durch eine qualifizierte Person erforderlich",
+            "Lufttüchtigkeit betrifft im STS-Betrieb hauptsächlich die Nutzlast",
+            "Lufttüchtigkeit wird nach dem Flug anhand der Logdaten bewertet"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Einstellung ist vor dem Start im Zusammenhang mit Fail-Safe-Funktionen zu prüfen?",
+          "options": [
+            "Ob alle Variablen passend zum Einsatzgebiet und den Wetterbedingungen eingestellt sind",
+            "Ob die Fail-Safe-Funktionen während des Fluges deaktiviert werden können",
+            "Ob der Hersteller die Fail-Safe-Funktionen nachträglich freigegeben hat",
+            "Ob die Fail-Safe-Funktionen im kontrollierten Bodenbereich verborgen bleiben"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche beiden Punkte werden im Skript zusätzlich zur allgemeinen UAS-Prüfung vor dem Start genannt?",
+          "options": [
+            "Kamerawinkel und Bildauflösung",
+            "Flugzeitprognose und Speicherkartenformatierung",
+            "Startgewicht der Nutzlast und Displayhelligkeit",
+            "Direkte Fernidentifikation und aktuelle geografische Gebiete"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Was ist im STS-Betrieb zusätzlich bezüglich des Flight Termination System zu prüfen?",
+          "options": [
+            "Ob das System die Flugroute automatisch optimiert",
+            "Ob das System die Wetterdaten auswertet",
+            "Ob das System zum Flugabbruch funktionsfähig ist",
+            "Ob das System die Fernidentifikation ersetzt"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Funktion wird in STS-02 im Zusammenhang mit dem programmierbaren Betriebsvolumen genannt?",
+          "options": [
+            "ADS-B-Funktion, damit das UAS bemannte Luftfahrzeuge aktiv ausweicht",
+            "Geo-Caging-Funktion, damit das UAS innerhalb der Fluggeografie bleibt",
+            "Wetterfilter-Funktion, damit Niederschlag automatisch erkannt wird",
+            "Remote-ID-Funktion, damit das UAS außerhalb der Fluggeografie betrieben werden kann"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Was beschreibt der Begriff Flight Envelope im Zusammenhang mit Betriebsverfahren?",
+          "options": [
+            "Den vom Hersteller festgelegten zulässigen Betriebsbereich einschließlich Betriebsgrenzen",
+            "Die Projektion der Flugroute auf die Erdoberfläche",
+            "Den Bereich, in dem sich Hilfspersonal aufhalten darf",
+            "Den Notfallplan für Absturz und Fly-Away"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Faktoren können Bestandteil der vom Hersteller vorgegebenen Betriebsgrenzen sein?",
+          "options": [
+            "Farbe des UAS, Kameratyp, Speicherkapazität und Displaygröße",
+            "Versicherungsnummer, Betreiber-ID, Funkrufname und Pilotenerfahrung",
+            "Startplatzmaterial, Kleidung der Crew, Tageszeit und Akkumarke",
+            "MTOW, Außentemperatur, Windgeschwindigkeit und Niederschlag"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Was ist nach einer Überschreitung der Betriebsgrenzen sinnvoll?",
+          "options": [
+            "Den Flug wiederholen, um die Belastungsgrenze genauer zu bestimmen",
+            "Die Herstellergrenzen an die geplante Mission anpassen",
+            "Den Vorfall analysieren und überlegen, wie eine solche Situation künftig vermieden werden kann",
+            "Die automatische Flugführung dauerhaft deaktivieren"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Wann sind Contingency Procedures anzuwenden?",
+          "options": [
+            "Wenn der Akku vollständig geladen ist und der Start vorbereitet wird",
+            "Wenn ein UAS droht, die Flight Geography zu verlassen oder in das Contingency Volume einzudringen",
+            "Wenn der Flugplan nach dem Einsatz archiviert wird",
+            "Wenn die direkte Fernidentifikation vor dem Start aktiviert wird"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Was ist das Ziel von Contingency Procedures?",
+          "options": [
+            "Sicherheit für Betroffene herstellen und weitere Eskalation durch Verlassen des Contingency Volume verhindern",
+            "Den Flug möglichst schnell außerhalb des Betriebsvolumens fortsetzen",
+            "Das Betriebsvolumen während des Fluges vergrößern",
+            "Den Ground Risk Buffer als normalen Flugbereich zu verwenden"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Wann sind Emergency Procedures anzuwenden?",
+          "options": [
+            "Wenn ein UAS die Flight Geography verlässt und erste Maßnahmen zur Stabilisierung eingeleitet werden",
+            "Wenn ein potenzieller Konflikt erkannt wird und eine Anpassung des Flugverhaltens erforderlich ist",
+            "Wenn während des normalen Betriebs eine geringfügige Abweichung innerhalb des zulässigen Betriebsvolumens auftritt",
+            "Wenn Contingency Procedures keine ausreichende Verbesserung erzielen und das UAS droht, das Contingency Volume zu verlassen oder dieses bereits verlassen hat"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt den ERP korrekt?",
+          "options": [
+            "Der ERP beschreibt die normale Flugroute und ersetzt die Vorflugkontrolle",
+            "Der ERP dient hauptsächlich der Prüfung meteorologischer Bedingungen",
+            "Der ERP beschreibt Emergency Procedures, insbesondere Absturz und Fly-Away, und muss für jeden Flug in der speziellen Kategorie vorhanden sein",
+            "Der ERP wird benötigt, wenn kein Betriebshandbuch vorhanden ist"
+          ],
+          "correct": 2,
+          "marked": false
+        }
+      ]
+    },
+    {
+      "id": "flugleistung",
+      "title": "Flugleistung",
+      "subtitle": "Teil 7: Flugleistung – schwierige Multiple-Choice-Prüfung",
+      "description": "25 Fragen aus STS-T-07_Quiz_Flugleistung.html",
+      "passThreshold": 75,
+      "questions": [
+        {
+          "q": "Welche Themen werden im Abschnitt Masse, Schwerpunkt und Nutzlast als Grundlage der Flugleistung behandelt?",
+          "options": [
+            "Funkreichweite, GNSS-Korrektur und direkte Fernidentifikation",
+            "Masse, Schwerpunktlage und zusätzliche Ausrüstung als leistungsrelevante Faktoren",
+            "Wetterkarten, NOTAM und Luftraumfreigaben",
+            "Propellerfarbe, Kamerawinkel und Speicherkartenformat"
+          ],
+          "correct": 1,
+          "marked": false,
+          "page": 4
+        },
+        {
+          "q": "Warum gehört die Betrachtung von Masse und Schwerpunkt zur Flugleistung eines UAS?",
+          "options": [
+            "Weil damit die rechtliche Betreiberregistrierung ersetzt wird",
+            "Weil die Funkfrequenz dadurch automatisch angepasst wird",
+            "Weil Masseverteilung und Beladung Stabilität, Energiebedarf und Flugzeit beeinflussen können",
+            "Weil die Windrichtung dadurch aus dem Fluglog berechnet wird"
+          ],
+          "correct": 2,
+          "marked": false,
+          "page": 4
+        },
+        {
+          "q": "Was beschreibt die Höchstabflugmasse MTOM im Sinne des Skripts?",
+          "options": [
+            "Die maximal zulässige Abflugmasse, die als strukturelle Begrenzung des UAS zu verstehen ist",
+            "Die tatsächlich gemessene Masse des UAS nach Abschluss der Mission",
+            "Die Masse der Nutzlast ohne Berücksichtigung der Batterie",
+            "Die Masse, die aus der aktuellen Windgeschwindigkeit berechnet wird"
+          ],
+          "correct": 0,
+          "marked": false,
+          "page": 5
+        },
+        {
+          "q": "Warum ist die Unterscheidung zwischen Masse und Gewichtskraft bei MTOM/MTOW fachlich relevant?",
+          "options": [
+            "Weil Gewichtskraft in Amperestunden angegeben wird",
+            "Weil Masse bei niedriger Temperatur automatisch ansteigt",
+            "Weil MTOW immer eine kleinere Größe als MTOM bezeichnet",
+            "Weil Masse unabhängig von äußeren Faktoren ist, während Gewichtskraft von der Ortsgravitation abhängt"
+          ],
+          "correct": 3,
+          "marked": true,
+          "page": 5
+        },
+        {
+          "q": "Welche Aussage beschreibt den Schwerpunkt CG eines UAS am besten?",
+          "options": [
+            "Der Schwerpunkt beschreibt die maximale Zellspannung einer Batterie",
+            "Der Schwerpunkt beeinflusst Stabilität, Flugleistung, Energieverbrauch und mögliche Flugzeit",
+            "Der Schwerpunkt ist der geometrische Mittelpunkt der Kameraoptik",
+            "Der Schwerpunkt legt die Funkreichweite der Fernsteuerung fest"
+          ],
+          "correct": 1,
+          "marked": false,
+          "page": 6
+        },
+        {
+          "q": "Welche Folge kann ein zu weit hinten liegender Schwerpunkt bei einem Starrflügler haben?",
+          "options": [
+            "Das UAS gewinnt automatisch an Längsstabilität",
+            "Die nutzbare Batteriekapazität erhöht sich während des Fluges",
+            "Das UAS kann Schwierigkeiten haben, sich aus einem blockierten Zustand beziehungsweise Stall zu erholen",
+            "Die C-Rate wird durch die Schwerpunktlage unmittelbar reduziert"
+          ],
+          "correct": 2,
+          "marked": false,
+          "page": 6
+        },
+        {
+          "q": "Welche Beschreibung trifft den Begriff Nutzlast beziehungsweise Payload im UAS-Kontext?",
+          "options": [
+            "Instrumente, Ausrüstungen oder Zusatzteile, die am UAS angebracht sind und nicht dem Betrieb oder der Steuerung im Flug dienen",
+            "Bauteile, die zur Steuerung des UAS im Flug erforderlich sind",
+            "Die strukturelle Höchstabflugmasse des UAS",
+            "Die entnehmbare Energie des Akkus in Amperestunden"
+          ],
+          "correct": 0,
+          "marked": true,
+          "page": 7
+        },
+        {
+          "q": "Welche Folge kann ein Betrieb außerhalb der Gewichts- oder Schwerpunktgrenzen durch Nutzlast haben?",
+          "options": [
+            "Verbesserte Flugleistung durch größere Trägheit",
+            "Konstanter Energieverbrauch trotz höherer Masse",
+            "Automatische Erhöhung der maximal zulässigen Abflugmasse",
+            "Kürzere Flugzeit, übermäßige Belastung und im ungünstigen Fall Kontrollverlust"
+          ],
+          "correct": 3,
+          "marked": false,
+          "page": 7
+        },
+        {
+          "q": "Warum ist der Themenblock Batterien für die Flugleistung eines UAS besonders wichtig?",
+          "options": [
+            "Weil die Batterie den behördlichen Luftraumstatus bestimmt",
+            "Weil Batteriezustand, Temperatur und Entladestrom die verfügbare Flugzeit und Leistungsabgabe beeinflussen",
+            "Weil Batterien die Windrichtung während des Fluges messen",
+            "Weil die Batterie das Betriebsvolumen rechtlich erweitert"
+          ],
+          "correct": 1,
+          "marked": false,
+          "page": 8
+        },
+        {
+          "q": "Welche Aussage verknüpft Batterie und Flugleistung praxisnah?",
+          "options": [
+            "Eine Batterie liefert bei Kälte grundsätzlich mehr nutzbare Energie",
+            "Die Flugleistung hängt bei elektrischen UAS nicht vom Batteriezustand ab",
+            "Eine Batterie kann trotz vorhandener Restladung unter Last weniger nutzbare Energie liefern als erwartet",
+            "Der Ladezustand beeinflusst weder Spannungslage noch mögliche Flugzeit"
+          ],
+          "correct": 2,
+          "marked": false,
+          "page": 8
+        },
+        {
+          "q": "Warum sollen kalte Akkus vor dem Betrieb vorgewärmt und bis zum Start warmgehalten werden?",
+          "options": [
+            "Weil die nutzbare Kapazität bei Belastung schnell abnehmen und die Flugzeit sinken kann",
+            "Weil sich dadurch die MTOM des UAS erhöht",
+            "Weil dadurch die Reihenschaltung in eine Parallelschaltung wechselt",
+            "Weil der Memory-Effekt bei LiPo-Akkus dadurch gezielt genutzt wird"
+          ],
+          "correct": 0,
+          "marked": false,
+          "page": 9
+        },
+        {
+          "q": "Welche Maßnahme gehört zu einem sicheren Umgang mit UAS-Batterien beim Laden?",
+          "options": [
+            "Akkus nach jedem Flug vollständig entladen lagern",
+            "Akkus zum Schutz vor Kälte in direkter Sonne laden",
+            "Akkus bei sichtbaren Verformungen weiterverwenden, wenn die Spannung ausreicht",
+            "Ladevorgänge beaufsichtigen und auf Temperaturanstieg, Aufblähungen oder Rauchentwicklung achten"
+          ],
+          "correct": 3,
+          "marked": false,
+          "page": 9
+        },
+        {
+          "q": "Welche Aussage zu Lithium-Polymer-Batterien LiPo entspricht dem Skript?",
+          "options": [
+            "Sie besitzen eine geringe Energiedichte und sind für UAS allgemein ungeeignet",
+            "Sie bieten hohe Energie und eignen sich für schwere oder schnelle UAS, vertragen aber keine Tiefenentladung",
+            "Sie sind gegenüber Zellspannungen unter 3 V unempfindlich",
+            "Sie zeigen den Memory-Effekt stärker als Nickel-Cadmium-Akkus"
+          ],
+          "correct": 1,
+          "marked": false,
+          "page": 10
+        },
+        {
+          "q": "Welche Aussage zum Memory-Effekt ist im UAS-Zusammenhang korrekt?",
+          "options": [
+            "Er erhöht nach Teilentladungen die speicherbare Energie",
+            "Er tritt bei jeder LiPo-Zelle als gewünschter Schutzeffekt auf",
+            "Er betrifft vor allem Nickel-Cadmium-Akkus und spielt bei üblichen UAS-Akkus eine geringe Rolle",
+            "Er beschreibt die Addition der Zellspannungen bei Reihenschaltung"
+          ],
+          "correct": 2,
+          "marked": true,
+          "page": 10
+        },
+        {
+          "q": "Welche Formel beschreibt die elektrische Leistung korrekt?",
+          "options": [
+            "Leistung in Watt = Spannung in Volt × Stromstärke in Ampere",
+            "Leistung in Watt = Kapazität in Ah × Ladezeit in h",
+            "Leistung in Watt = C-Faktor ÷ Kapazität in Ah",
+            "Leistung in Watt = Spannung in Volt + Zellzahl"
+          ],
+          "correct": 0,
+          "marked": false,
+          "page": 11
+        },
+        {
+          "q": "Was beschreibt die Kapazität einer Batterie im Skript?",
+          "options": [
+            "Die Potentialdifferenz zwischen Elektroden, gemessen in Volt",
+            "Die zulässige Startmasse des UAS",
+            "Die Geschwindigkeit, mit der das UAS horizontal fliegt",
+            "Die Energiemenge, die eine Batterie bereitstellen beziehungsweise ein Akku speichern kann, gemessen in Amperestunden"
+          ],
+          "correct": 3,
+          "marked": false,
+          "page": 11
+        },
+        {
+          "q": "Was beschreibt die C-Rate beziehungsweise der C-Faktor?",
+          "options": [
+            "Die Temperaturgrenze, ab der ein Akku geladen werden darf",
+            "Die Geschwindigkeit, mit der eine Batterie im Verhältnis zu ihrer maximalen Kapazität entladen werden kann",
+            "Die Anzahl der Zellen in einer Reihenschaltung",
+            "Die elektrische Spannung einer einzelnen Zelle im Leerlauf"
+          ],
+          "correct": 1,
+          "marked": false,
+          "page": 12
+        },
+        {
+          "q": "Ein Akku hat 2,4 Ah Kapazität und eine C-Rate von 20 C. Welcher maximale dauerhafte Entladestrom ergibt sich?",
+          "options": [
+            "8,3 A",
+            "22,4 A",
+            "40 A",
+            "48 A"
+          ],
+          "correct": 3,
+          "marked": false,
+          "page": 12
+        },
+        {
+          "q": "Welche Aussage zur Parallelschaltung von Batterien ist korrekt?",
+          "options": [
+            "Die Spannung bleibt gleich, während sich die Kapazität der einzelnen Batterien addiert",
+            "Die Spannung addiert sich, während die Kapazität gleich bleibt",
+            "Spannung und Kapazität sinken im selben Verhältnis",
+            "Die MTOM wird durch Parallelschaltung automatisch reduziert"
+          ],
+          "correct": 0,
+          "marked": false,
+          "page": 13
+        },
+        {
+          "q": "Welche Aussage zur Reihenschaltung beziehungsweise Serienschaltung ist korrekt?",
+          "options": [
+            "Die Kapazität addiert sich bei gleichbleibender Spannung",
+            "Die Spannung der einzelnen Batterien addiert sich",
+            "Die Spannung bleibt unabhängig von der Anzahl der Zellen gleich",
+            "Die C-Rate wird durch Reihenschaltung zu null"
+          ],
+          "correct": 1,
+          "marked": false,
+          "page": 13
+        },
+        {
+          "q": "Wie wirkt sich eine zusätzliche Nutzlast typischerweise auf Energiebedarf und Flugzeit aus?",
+          "options": [
+            "Der Energiebedarf sinkt durch höhere Masse",
+            "Die Flugzeit bleibt unverändert, wenn die MTOM eingehalten wird",
+            "Der Energiebedarf steigt, wodurch die verfügbare Flugzeit sinken kann",
+            "Die Nutzlast beeinflusst vor allem die Funkreichweite"
+          ],
+          "correct": 2,
+          "marked": false,
+          "page": "T"
+        },
+        {
+          "q": "Welche Kombination weist am ehesten auf ein erhöhtes Risiko für reduzierte Flugleistung hin?",
+          "options": [
+            "Hohe Nutzlast, ungünstiger Schwerpunkt und kalter Akku",
+            "Geringe Nutzlast, warmer Akku und Schwerpunkt innerhalb der Grenzen",
+            "Normale Kapazität, passende Befestigung und überwachte Ladung",
+            "Herstellerkonforme Masse, korrekte Schwerpunktlage und volle Zellen"
+          ],
+          "correct": 0,
+          "marked": false,
+          "page": "T"
+        },
+        {
+          "q": "Warum ist die Batterieüberwachung während Vorbereitung und Betrieb relevant?",
+          "options": [
+            "Sie ersetzt die Prüfung von MTOM und Schwerpunktlage",
+            "Sie unterstützt das frühzeitige Erkennen kritischer Zustände wie Spannungsabfall oder thermische Auffälligkeiten",
+            "Sie erhöht die zugelassene Nutzlast im Flug",
+            "Sie verhindert unabhängig vom Zustand jede Tiefenentladung"
+          ],
+          "correct": 1,
+          "marked": false,
+          "page": "T"
+        },
+        {
+          "q": "Welche Aussage beschreibt den Zusammenhang zwischen Strombedarf und Zellbelastung am besten?",
+          "options": [
+            "Ein hoher Entladestrom erhöht die verfügbare Kapazität",
+            "Die Zellbelastung hängt nicht mit dem Entladestrom zusammen",
+            "Ein hoher Entladestrom belastet die Zellen stärker und kann die nutzbare Kapazität reduzieren",
+            "Der Entladestrom wirkt sich auf die Funksteuerung statt auf die Zellen aus"
+          ],
+          "correct": 2,
+          "marked": false,
+          "page": "T"
+        },
+        {
+          "q": "Welche Entscheidung ist bei zweifelhafter Befestigung einer Nutzlast aus Prüfersicht richtig?",
+          "options": [
+            "Start unterbrechen und Befestigung, Masse und Schwerpunktlage erneut prüfen",
+            "Start durchführen und Stabilität erst in größerer Höhe bewerten",
+            "Flug fortsetzen, wenn die Batterie voll geladen ist",
+            "Automatikmodus wählen, damit die Nutzlast keinen Einfluss auf die Flugleistung hat"
+          ],
+          "correct": 0,
+          "marked": false,
+          "page": "T"
+        }
+      ]
+    },
+    {
+      "id": "human_factors",
+      "title": "Menschliches Leistungsvermögen",
+      "subtitle": "Teil 8: Menschliches Leistungsvermögen – schwere Multiple-Choice-Prüfung",
+      "description": "44 Fragen aus STS-T-08_Quiz_Human_Factors.html",
+      "passThreshold": 75,
+      "questions": [
+        {
+          "q": "Welcher Zweck steht bei der Checkliste „I’M SAFE“ im Vordergrund?",
+          "options": [
+            "Technische Prüfung der Motoren vor dem Start",
+            "Selbsteinschätzung, ob der Fernpilot einsatzfähig ist",
+            "Ermittlung der maximal zulässigen Flughöhe",
+            "Dokumentation der Flugroute nach Einsatzende"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Zuordnung innerhalb von „I’M SAFE“ ist korrekt?",
+          "options": [
+            "F steht für Funkverbindung",
+            "M steht für Mission",
+            "E steht für Environment",
+            "A steht für Alcohol"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Warum ist der Themenblock gesundheitliche Vorkehrungen für STS-Flüge relevant?",
+          "options": [
+            "Weil die Leistungsfähigkeit der Remote-Crew direkt sicherheitsrelevant ist",
+            "Weil damit die UAS-Klasse automatisch bestimmt wird",
+            "Weil dadurch die Luftraumstruktur vereinfacht wird",
+            "Weil damit die technische Wartung ersetzt wird"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Entscheidung passt am ehesten zum Prinzip „Fit for duty“?",
+          "options": [
+            "Start trotz Beschwerden, wenn die Mission zeitkritisch ist",
+            "Start durchführen, wenn eine zweite Batterie verfügbar ist",
+            "Start verschieben, wenn gesundheitliche Faktoren die Steuerfähigkeit beeinflussen können",
+            "Start erlauben, wenn das UAS im Automatikmodus fliegt"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Warum kann eine Erkältung für einen Fernpiloten problematisch sein?",
+          "options": [
+            "Eine Erkältung erhöht automatisch die Funkreichweite",
+            "Eine Erkältung kann die kognitive Leistungsfähigkeit reduzieren",
+            "Eine Erkältung verändert die UAS-Registrierung",
+            "Eine Erkältung verbessert die Reaktionsgeschwindigkeit kurzfristig"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zur Einnahme von Medikamenten ist im Sinne von „Fit for duty“ am zutreffendsten?",
+          "options": [
+            "Nebenwirkungen und Wechselwirkungen müssen bei der Einsatzfähigkeit berücksichtigt werden",
+            "Rezeptfreie Mittel sind im UAS-Betrieb immer unkritisch",
+            "Medikamente spielen bei Sichtflügen keine Rolle",
+            "Wechselwirkungen entstehen erst nach mehreren Flugstunden"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Warum wird Druck und Stress im Bereich menschliches Leistungsvermögen gesondert betrachtet?",
+          "options": [
+            "Weil Stress die technische Steuerfrequenz verändert",
+            "Weil Stress den Luftraumstatus automatisch verändert",
+            "Weil Stress durch höhere Flughöhe ausgeglichen wird",
+            "Weil Druck und Stress Entscheidungen, Aufmerksamkeit und Verhalten beeinflussen können"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Situation weist am ehesten auf betrieblichen Druck hin?",
+          "options": [
+            "Ruhige Vorbereitung mit ausreichend Zeitreserve",
+            "Geringe Komplexität bei stabiler Wetterlage",
+            "Hohe Arbeitslast, enge Zeitfenster und Anforderungen von Vorgesetzten",
+            "Kurze Flugstrecke ohne externe Erwartungen"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Wovon hängt das empfundene Stresslevel nach dem Skript wesentlich ab?",
+          "options": [
+            "Von der Differenz zwischen wahrgenommenen Anforderungen und eigener Fähigkeitseinschätzung",
+            "Von der Anzahl der geladenen Akkus",
+            "Von der Windrichtung im Einsatzgebiet",
+            "Von der maximalen Auflösung der Kamera"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Beschreibung passt zu kognitivem Stress?",
+          "options": [
+            "Körperliche Erschöpfung durch lange Wegstrecken",
+            "Erhöhte Geräuschbelastung durch Rotoren",
+            "Gedanken kreisen um Stressauslöser im eigenen Leben",
+            "Einschätzung der Entfernung zu Hindernissen"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche kognitive Auswirkung kann Stress laut Skript haben?",
+          "options": [
+            "Verbesserte Langzeitplanung",
+            "Konzentrationsschwäche",
+            "Höhere Detailwahrnehmung",
+            "Stabilere Entscheidungsfindung"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Warum ist Stress im Luftfahrtkontext sicherheitskritisch?",
+          "options": [
+            "Er erhöht die Akkukapazität unter Last",
+            "Er reduziert Ablenkungen bei komplexen Missionen",
+            "Er verbessert die Priorisierung in Notfällen automatisch",
+            "Er kann körperliche, geistige oder emotionale Anspannung erzeugen, die die Flugsicherheit beeinträchtigt"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zum Alkoholkonsum vor UAS-Betrieb ist korrekt?",
+          "options": [
+            "Alkohol reduziert Stress ohne flugbetriebliche Nachteile",
+            "Alkohol wird durch konzentriertes Arbeiten schneller abgebaut",
+            "Alkohol in den letzten 24 Stunden kann Fehlerquote und kognitive Leistungsfähigkeit beeinflussen",
+            "Alkohol wirkt sich vorwiegend auf Kameraeinstellungen aus"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Warum ist Alkohol zur Stressdämpfung ungeeignet?",
+          "options": [
+            "Weil symptomorientierte Stressbewältigung die Ursache des Problems nicht sinnvoll löst",
+            "Weil Alkohol die Luftraumbeobachtung objektiv verbessert",
+            "Weil Alkohol den zirkadianen Rhythmus stabilisiert",
+            "Weil Alkohol die Kommunikation standardisiert"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Warum ist Ermüdung im STS-Betrieb relevant?",
+          "options": [
+            "Ermüdung betrifft bemannte Luftfahrt",
+            "Ermüdung wirkt sich nicht auf Routineaufgaben aus",
+            "Ermüdung wird durch GNSS-Unterstützung vollständig kompensiert",
+            "Ermüdung kann Aufmerksamkeit und sicherheitsrelevante Aufgaben beeinträchtigen"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Beurteilung wäre vor einem anspruchsvollen Flug bei Schlafmangel angemessen?",
+          "options": [
+            "Flug fortsetzen, wenn das UAS technisch einsatzbereit ist",
+            "Einsatzfähigkeit kritisch prüfen und den Flug gegebenenfalls verschieben",
+            "Flug automatisch durchführen lassen",
+            "Schlafmangel durch höhere Flughöhe ausgleichen"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Wie definiert das Skript Müdigkeit im Sinne der ICAO?",
+          "options": [
+            "Zustand erhöhter geistiger Wachheit",
+            "Physiologischer Zustand verminderter geistiger oder körperlicher Leistungsfähigkeit",
+            "Kurzzeitige Verbesserung der Reaktionsfähigkeit",
+            "Psychologische Routine ohne Sicherheitsbezug"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Ursache für Müdigkeit wird im Skript genannt?",
+          "options": [
+            "Geringere Arbeitsbelastung",
+            "Verbesserte Schlafqualität",
+            "Vereinfachte Kommunikation",
+            "Längere Wachzeiten"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Was beschreibt der zirkadiane Rhythmus im Kontext von Ermüdung?",
+          "options": [
+            "Die innere Uhr für den Wechsel zwischen Wachsein und Schlaf",
+            "Die technische Zykluszeit eines Akkus",
+            "Die Wechselwirkung mehrerer Medikamente",
+            "Die Anordnung von Himmelssegmenten beim Scannen"
+          ],
+          "correct": 0,
+          "marked": true
+        },
+        {
+          "q": "Warum kann eine Störung des zirkadianen Rhythmus sicherheitsrelevant sein?",
+          "options": [
+            "Weil dadurch die UAS-Kategorie wechselt",
+            "Weil der Wind am Boden stärker wird",
+            "Weil die Wahrnehmung und Leistungsfähigkeit ungünstig beeinflusst werden können",
+            "Weil dadurch die Fernidentifikation abgeschaltet wird"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Kombination nennt Schlafphasen, die im Skript dargestellt werden?",
+          "options": [
+            "Stressphase, Alkoholphase, Medikationsphase und VLOS-Phase",
+            "Plan-, Aviate-, Navigate- und Communicate-Phase",
+            "Scan-, Fokus-, Blick- und Feedbackphase",
+            "Einschlaf-/Wachphase, Leichtschlaf, Tiefschlaf und REM-Phase"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Warum ist Wissen über Schlafphasen für Fernpiloten relevant?",
+          "options": [
+            "Weil Schlafphasen die UAS-Firmware bestimmen",
+            "Weil Schlafqualität die Leistungsfähigkeit am Folgetag beeinflussen kann",
+            "Weil REM-Schlaf die Funkfrequenz stabilisiert",
+            "Weil Leichtschlaf die GNSS-Höhe kalibriert"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage beschreibt die Einschlafphase zutreffend?",
+          "options": [
+            "Übergang zwischen Wachsein und Schlaf mit sehr leichtem Schlaf",
+            "Phase maximaler körperlicher Regeneration",
+            "Phase intensiver visueller Luftraumüberwachung",
+            "Phase stabiler Muskelspannung"
+          ],
+          "correct": 0,
+          "marked": true
+        },
+        {
+          "q": "Welche Aussage zur Leichtschlafphase passt zum Skript?",
+          "options": [
+            "Sie ist die Phase körperlicher Höchstleistung",
+            "Sie verhindert jede Muskelentspannung",
+            "Sie nimmt während der Nacht zunehmend längeren Anteil ein",
+            "Sie entspricht der bewussten Wachphase"
+          ],
+          "correct": 2,
+          "marked": true
+        },
+        {
+          "q": "Welche Funktion wird der Tiefschlafphase im Skript zugeordnet?",
+          "options": [
+            "Systematisches Scannen des Luftraums",
+            "Schnelle optische Entfernungsschätzung",
+            "Körperliche Entspannung und geistige Erholung",
+            "Kommunikation mit Call-outs"
+          ],
+          "correct": 2,
+          "marked": true
+        },
+        {
+          "q": "Welche Aussage beschreibt die REM-Phase korrekt?",
+          "options": [
+            "Gehirnaktivität steigt, Informationen werden verarbeitet und Erinnerungen neu geordnet",
+            "Körperliche Muskelaktivität steigt zur Ausführung von Träumen",
+            "Pupillen werden enger und Augenbewegungen kommen dauerhaft zum Stillstand",
+            "Die Phase entspricht ruhiger körperlicher Regeneration ohne Verarbeitung"
+          ],
+          "correct": 0,
+          "marked": true
+        },
+        {
+          "q": "Warum ist Situationsbewusstsein für STS-Flüge ein eigenständiger Prüfungsbereich?",
+          "options": [
+            "Weil dadurch die Wetterprüfung ersetzt wird",
+            "Weil der Pilot dadurch keine Crew-Kommunikation benötigt",
+            "Weil Situationsbewusstsein hauptsächlich nach dem Flug relevant ist",
+            "Weil technische Daten allein nicht genügen, um eine sichere Gesamtsituation zu beurteilen"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Fähigkeit gehört besonders zum Situationsbewusstsein?",
+          "options": [
+            "Auswendiglernen der Seriennummer des UAS",
+            "Erkennen, Einordnen und Vorausdenken sicherheitsrelevanter Faktoren",
+            "Vermeidung jeder Kommunikation im Team",
+            "Konzentration auf eine einzelne Anzeige"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Was beschreibt Situational Awareness im UAS-Betrieb?",
+          "options": [
+            "Erfassung betrieblicher, technischer und menschlicher Faktoren, die den sicheren Betrieb beeinflussen",
+            "Einstellung der maximalen Kameraauflösung",
+            "Berechnung der Akkukapazität aus der C-Rate",
+            "Automatische Kollisionsvermeidung ohne Beobachtung"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Faktoren können Situationsbewusstsein negativ beeinflussen?",
+          "options": [
+            "Tiefschlaf, klare Kommunikation und Wiederholungstraining",
+            "Referenzobjekte, GNSS und Höhenmesser",
+            "Krankheit, Medikamente, Arbeitsbelastung, Stress, Alkohol, Schlafmangel und Ablenkung",
+            "Planung, Aviate, Navigate und Communicate"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Warum sollen kritische Momente und Notfallsituationen wiederholt trainiert werden?",
+          "options": [
+            "Damit die gesetzliche Registrierung entfällt",
+            "Damit Verfahren auch bei Ablenkung und Multitasking zuverlässig ablaufen",
+            "Damit die Fernsteuerung ohne Energie arbeitet",
+            "Damit die Sichtweite rechnerisch vergrößert wird"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Reihenfolge beschreibt den (P)ANC-Merksatz korrekt?",
+          "options": [
+            "Aviate – Navigate – Plan – Communicate",
+            "Communicate – Navigate – Aviate – Plan",
+            "Navigate – Plan – Communicate – Aviate",
+            "Plan – Aviate – Navigate – Communicate"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Warum ist menschliche Wahrnehmung ein prüfungsrelevanter Bereich?",
+          "options": [
+            "Weil Wahrnehmung keine Auswirkung auf VLOS hat",
+            "Weil Sensoren menschliche Beobachtung jederzeit ersetzen",
+            "Weil Wahrnehmung im Nachtbetrieb relevant ist",
+            "Weil Wahrnehmungsgrenzen die sichere Steuerung und Luftraumbeobachtung beeinflussen"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage passt zur menschlichen Wahrnehmung im UAS-Betrieb?",
+          "options": [
+            "Wahrnehmung kann durch Umweltbedingungen und Erfahrung beeinflusst werden",
+            "Entfernungen werden immer objektiv richtig eingeschätzt",
+            "Akustische Kommunikation ersetzt Sichtkontakt",
+            "Luftfeuchtigkeit verbessert Entfernungsschätzung"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welcher Sinn liefert laut Skript den wichtigsten Beitrag zu Wahrnehmung und Orientierung?",
+          "options": [
+            "Der Tastsinn",
+            "Der Geruchssinn",
+            "Der visuelle Sinn",
+            "Der Geschmackssinn"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Was bedeutet VLOS im Kontext des UAS-Betriebs?",
+          "options": [
+            "Flug nach gespeicherten Wegpunkten ohne direkte Beobachtung",
+            "Ununterbrochener Sichtkontakt und Kontrolle der Flugbahn bezüglich Luftfahrzeugen, Personen und Hindernissen",
+            "Betrieb anhand akustischer Signale der Rotoren",
+            "Steuerung anhand der letzten bekannten Position"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welche Faktoren können die Abschätzung von Flughöhe und Entfernung beeinflussen?",
+          "options": [
+            "C-Rate, Zellzahl und Akkutemperatur",
+            "Flugbuchnummer, Versicherungsnachweis und Betreiber-ID",
+            "Bewölkung, Nebel, Sonnenstand, Niederschlag, Rauch und Luftfeuchtigkeit",
+            "Call-outs, Feedback und Fachwortschatz"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welche Aussage zur Abschätzung von Hindernisabständen ist zutreffend?",
+          "options": [
+            "Faustformeln liefern immer genauere Werte als Sensoren",
+            "Referenzobjekte verschlechtern die Einschätzung in jedem Fall",
+            "GNSS und Höhenmesser spielen bei Entfernungsschätzung keine Rolle",
+            "Die Abschätzung des Abstands vom UAS zu Hindernissen ist generell schwierig"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Was beschreibt Visual Scanning in der Luftfahrt?",
+          "options": [
+            "Dauerhaftes Fixieren eines Punktes am Horizont",
+            "Systematisches Fokussieren verschiedener Himmelssegmente in kurzen Intervallen",
+            "Automatische Kameraauswertung des Luftraums",
+            "Akustische Erkennung anderer Luftfahrzeuge"
+          ],
+          "correct": 1,
+          "marked": false
+        },
+        {
+          "q": "Welcher Scanbereich wird im Skript im Zusammenhang mit der geplanten Flugbahn genannt?",
+          "options": [
+            "10° über und 10° unter der geplanten Flugbahn",
+            "30° links und 30° rechts der Fernsteuerung",
+            "90° über dem Startpunkt",
+            "Der gesamte Himmel ohne Segmentierung"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Art von Stress gibt es im Kontext mit STS nicht?",
+          "options": [
+            "Kognitiver Stress",
+            "Emotionaler Stress",
+            "Betrieblicher Druck",
+            "Aerodynamischer Stress"
+          ],
+          "correct": 3,
+          "marked": false
+        },
+        {
+          "q": "Wofür steht NIHL?",
+          "options": [
+            "Noise-Induced Hearing Loss",
+            "Navigation-Induced Human Limitation",
+            "Night Identification Hearing Level",
+            "Normal Intercom Headset Limitation"
+          ],
+          "correct": 0,
+          "marked": false
+        },
+        {
+          "q": "Welche Funktion hat Feedback in der Kommunikation zwischen Fernpilot und weiteren Beteiligten?",
+          "options": [
+            "Ein Funkruf zur Änderung der Flughöhe ohne Rückmeldung",
+            "Eine automatische Warnmeldung des UAS bei niedrigem Akkustand",
+            "Bestätigung des Empfängers, dass eine Nachricht angekommen ist",
+            "Eine nachträgliche Bewertung der gesamten Mission ohne Kommunikationsbezug"
+          ],
+          "correct": 2,
+          "marked": false
+        },
+        {
+          "q": "Welcher Faktor beeinflusst nicht die Genauigkeit bei der optischen Abschätzung von Flughöhe und Entfernung?",
+          "options": [
+            "Bewölkung",
+            "Akkukapazität",
+            "Nebel",
+            "Sonnenstand"
           ],
           "correct": 1,
           "marked": false
